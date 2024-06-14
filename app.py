@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, world, code deployment is done!'
+    return 'Hello, world, code deployment is completed!'
 
 if __name__ == '__main__':
     app.run()
